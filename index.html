@@ -68,7 +68,7 @@
     <div class="container">
         <h1 class="text-center text-primary fw-bold">Internship 101 Guide</h1>
 
-        <!-- Sophos Installation -->
+        <!-- Guide Sections -->
         <div class="card">
             <div class="card-header">Sophos Installation</div>
             <div class="card-body">
@@ -79,15 +79,14 @@
                         Type:
                         <div class="code-container">
                             <code id="code1">\\sinsfps1\downtimelogs\</code>
-                            <button class="copy-btn" onclick="copyToClipboard('code1')" data-bs-toggle="tooltip" title="Copy"><i class="bi bi-clipboard"></i></button>
+                            <button class="copy-btn" onclick="copyToClipboard('code1')" title="Copy"><i class="bi bi-clipboard"></i></button>
                         </div>
                     </li>
-                    <li class="list-group-item">Locate and run the <strong>Sophos_Setup_Official_Inspiro.exe</strong> file</li>
+                    <li class="list-group-item">Locate and run <strong>Sophos_Setup_Official_Inspiro.exe</strong></li>
                 </ol>
             </div>
         </div>
 
-        <!-- Patch Checking -->
         <div class="card">
             <div class="card-header">Patch Checking</div>
             <div class="card-body">
@@ -98,81 +97,20 @@
                         Type:
                         <div class="code-container">
                             <code id="code2">cmd</code>
-                            <button class="copy-btn" onclick="copyToClipboard('code2')" data-bs-toggle="tooltip" title="Copy"><i class="bi bi-clipboard"></i></button>
+                            <button class="copy-btn" onclick="copyToClipboard('code2')" title="Copy"><i class="bi bi-clipboard"></i></button>
                         </div>
                     </li>
                     <li class="list-group-item">
                         Run:
                         <div class="code-container">
                             <code id="code3">wmic qfe list</code>
-                            <button class="copy-btn" onclick="copyToClipboard('code3')" data-bs-toggle="tooltip" title="Copy"><i class="bi bi-clipboard"></i></button>
+                            <button class="copy-btn" onclick="copyToClipboard('code3')" title="Copy"><i class="bi bi-clipboard"></i></button>
                         </div>
                     </li>
                 </ol>
             </div>
         </div>
 
-        <!-- Patch Checking 2.0 -->
-        <div class="card">
-            <div class="card-header">Patch Checking 2.0</div>
-            <div class="card-body">
-                <p>To check Windows version:</p>
-                <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">Press <kbd>Windows + R</kbd></li>
-                    <li class="list-group-item">
-                        Type:
-                        <div class="code-container">
-                            <code id="code4">winver</code>
-                            <button class="copy-btn" onclick="copyToClipboard('code4')" data-bs-toggle="tooltip" title="Copy"><i class="bi bi-clipboard"></i></button>
-                        </div>
-                    </li>
-                </ol>
-            </div>
-        </div>
-        
-                <!-- Patching -->
-<div class="card">
-    <div class="card-header">Patching</div>
-    <div class="card-body">
-        <p>Patching:</p>
-        <ol class="list-group list-group-numbered">
-            <li class="list-group-item">Press <kbd>Windows + R</kbd></li>
-            <li class="list-group-item">
-                Type:
-                <div class="code-container">
-                    <code id="code8">\\sinsfps1\downtimelogs\jan</code>
-                    <button class="copy-btn" onclick="copyToClipboard('code8')" data-bs-toggle="tooltip" title="Copy">
-                        <i class="bi bi-clipboard"></i>
-                    </button>
-                </div>
-              
-            </li>
-             <li class="list-group-item">and press Enter</li>
-            <li class="list-group-item">Run</li>
-        </ol>
-    </div>
-</div>
-
-        <!-- Check Drive Restriction -->
-        <div class="card">
-            <div class="card-header">Check Drive Restriction</div>
-            <div class="card-body">
-                <p>To check if the C: drive is restricted:</p>
-                <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">Press <kbd>Windows + R</kbd></li>
-                    <li class="list-group-item">
-                        Type:
-                        <div class="code-container">
-                            <code id="code5">C:</code>
-                            <button class="copy-btn" onclick="copyToClipboard('code5')" data-bs-toggle="tooltip" title="Copy"><i class="bi bi-clipboard"></i></button>
-                        </div>
-                    </li>
-                </ol>
-            </div>
-        </div>
-        
-
-        <!-- USB Enable/Disable -->
         <div class="card">
             <div class="card-header">Enable/Disable USB Access</div>
             <div class="card-body">
@@ -182,60 +120,39 @@
                     <li class="list-group-item">
                         Type:
                         <div class="code-container">
-                            <code id="code6">\\sinsfps1\downtimelogs\Shortcuts</code>
-                            <button class="copy-btn" onclick="copyToClipboard('code6')" data-bs-toggle="tooltip" title="Copy"><i class="bi bi-clipboard"></i></button>
+                            <code id="code4">\\sinsfps1\downtimelogs\Shortcuts</code>
+                            <button class="copy-btn" onclick="copyToClipboard('code4')" title="Copy"><i class="bi bi-clipboard"></i></button>
                         </div>
                     </li>
                     <li class="list-group-item">
                         Run:
                         <div class="code-container">
-                            <code id="code7">_usboff</code>
-                            <button class="copy-btn" onclick="copyToClipboard('code7')" data-bs-toggle="tooltip" title="Copy"><i class="bi bi-clipboard"></i></button>
+                            <code id="code5">_usboff</code>
+                            <button class="copy-btn" onclick="copyToClipboard('code5')" title="Copy"><i class="bi bi-clipboard"></i></button>
                         </div>
                     </li>
                 </ol>
             </div>
         </div>
-        
-        <!-- Installing MS Office 2016 Pro and Standard -->
+
         <div class="card">
-            <div class="card-header">Installing MS Office 2016 Pro and Standard</div>
+            <div class="card-header">Checking Hostname</div>
             <div class="card-body">
-                <p>Installing MS Office 2019 Pro and Standard</p>
+                <p>To check the hostname:</p>
                 <ol class="list-group list-group-numbered">
                     <li class="list-group-item">Press <kbd>Windows + R</kbd></li>
                     <li class="list-group-item">
                         Type:
                         <div class="code-container">
-                            <code id="code5">\\sinsfps1\downtimelogs\WAH-Apps\Office 2019</code>
-                            <button class="copy-btn" onclick="copyToClipboard('code5')" data-bs-toggle="tooltip" title="Copy"><i class="bi bi-clipboard"></i></button>
-                        </div>
-                    </li>
-                     <li class="list-group-item">and press Enter</li>
-                     <li class="list-group-item">Install and Choice the Version</li>
-                </ol>
-            </div>
-        </div>
-        
-        <!-- Checking Hostname-->
-        <div class="card">
-            <div class="card-header">Hostname Checking</div>
-            <div class="card-body">
-                <p>To check Hostname:</p>
-                <ol class="list-group list-group-numbered">
-                    <li class="list-group-item">Press <kbd>Windows + R</kbd></li>
-                    <li class="list-group-item">
-                        Type:
-                        <div class="code-container">
-                            <code id="code2">cmd</code>
-                            <button class="copy-btn" onclick="copyToClipboard('code2')" data-bs-toggle="tooltip" title="Copy"><i class="bi bi-clipboard"></i></button>
+                            <code id="code6">cmd</code>
+                            <button class="copy-btn" onclick="copyToClipboard('code6')" title="Copy"><i class="bi bi-clipboard"></i></button>
                         </div>
                     </li>
                     <li class="list-group-item">
                         Run:
                         <div class="code-container">
-                            <code id="code3">Hostname</code>
-                            <button class="copy-btn" onclick="copyToClipboard('code3')" data-bs-toggle="tooltip" title="Copy"><i class="bi bi-clipboard"></i></button>
+                            <code id="code7">hostname</code>
+                            <button class="copy-btn" onclick="copyToClipboard('code7')" title="Copy"><i class="bi bi-clipboard"></i></button>
                         </div>
                     </li>
                 </ol>
